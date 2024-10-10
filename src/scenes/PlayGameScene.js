@@ -1,6 +1,6 @@
 import Phaser from 'phaser'
 import { initGamesValue } from "../services/storage.service";
-import { W_SCREEN, H_SCREEN } from './../main'
+import { W_SCREEN, H_SCREEN } from './../main';
 
 export default class PlayGameScene extends Phaser.Scene {
     constructor() {
