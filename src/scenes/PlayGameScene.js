@@ -13,6 +13,8 @@ export default class PlayGameScene extends Phaser.Scene {
         
 
     preload() {
+        this.load.image('tutorial', 'images/maps/tutorial/Total Feasty Fuchsia.png');
+        this.load.tilemapTiledJSON('map', 'images/maps/tutorial.json');
 
         this.pacmanSS = this.load.spritesheet('pacman-test',
             'spritesheet/pacman-right.png',
@@ -29,6 +31,7 @@ export default class PlayGameScene extends Phaser.Scene {
 
     create() {
 
+        this.map = this.make.tilemap({key: 'map'});
 
         let frames = this.anims.generateFrameNumbers('pacman-test');
         console.log(frames);
