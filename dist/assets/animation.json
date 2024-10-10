@@ -1,0 +1,31 @@
+{"frames": {
+
+    "pac-man-left":
+    {
+        "frame": {"x":17,"y":65,"w":30,"h":30},
+        "rotated": false,
+        "trimmed": false,
+        "duration": 3,
+        "spriteSourceSize": {"x":171,"y":100,"w":30,"h":30},
+        "sourceSize": {"w":30,"h":30}
+    },
+    "pacman-die.png":
+    {
+        "frame": {"x":0,"y":32,"w":32,"h":32},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+        "sourceSize": {"w":32,"h":32}
+    },
+    "pacman-animated-left":
+    {
+        "frame": {"x":0,"y":64,"w":22,"h":11},
+        "rotated": false,
+        "trimmed": false,
+        "spriteSourceSize": {"x":0,"y":0,"w":22,"h":11},
+        "sourceSize": {"w":22,"h":11}
+    }
+    }
+
+    }
+    
