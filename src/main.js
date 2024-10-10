@@ -11,8 +11,8 @@ import SettingsScene from './scenes/SettingsScene'
 import { initGamesValue } from "./services/storage.service";
 
 
-export var W_SCREEN= 800;
-export var H_SCREEN= 800;
+export var W_SCREEN= 850;
+export var H_SCREEN= 850;
 
 initGamesValue();
 
