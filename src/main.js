@@ -11,15 +11,15 @@ import SettingsScene from './scenes/SettingsScene'
 import { initGamesValue } from "./services/storage.service";
 
 
-export var W_SCREEN= 850;
-export var H_SCREEN= 850;
+export var W_SCREEN = 850;
+export var H_SCREEN = 850;
 
 initGamesValue();
 
 const config = {
 	type: Phaser.AUTO,
-    width: W_SCREEN,
-    height: H_SCREEN,
+	width: W_SCREEN,
+	height: H_SCREEN,
 	physics: {
 		default: 'arcade',
 		arcade: {
@@ -28,14 +28,14 @@ const config = {
 	},
 	scene: [
 		HelloWorldScene,
-		SplashScreenScene, 
+		SplashScreenScene,
 		BeforeStartGameScene,
 		PlayGameScene,
 		WinTitleScene,
 		GameOverScene,
 		RankingScreenScene,
 		SettingsScene
-		],
+	],
 	// 		scale: {
 	// 	mode: Phaser.Scale.ScaleModes.FIT,
 	// 	autoCenter: Phaser.Scale.CENTER_BOTH
